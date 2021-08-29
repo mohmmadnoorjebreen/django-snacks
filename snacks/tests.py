@@ -1,7 +1,7 @@
 from django.test import SimpleTestCase
 from django.urls import reverse
 # Create your tests here.
-class thingsTests(SimpleTestCase):
+class snacksTests(SimpleTestCase):
     def test_home_page_status(self):
             url = reverse('home')
             response = self.client.get(url)
